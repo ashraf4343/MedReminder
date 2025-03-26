@@ -6,3 +6,5 @@ node_modules/
 
 # Ignore IDE settings
 .vscode/
+
+.env
