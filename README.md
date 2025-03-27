@@ -26,9 +26,11 @@ This project implements a medication reminder service that triggers phone calls 
    ```bash
    git clone <repository-url>
    cd medication-reminder-service
+   
 2. **Install Dependencies
    ```bash
    npm install
+   
 3. **Set Environment Variables Create a .env file in the root directory and add the following:
    ```bash
    TWILIO_ACCOUNT_SID=your_twilio_account_sid
@@ -36,16 +38,19 @@ This project implements a medication reminder service that triggers phone calls 
    TWILIO_PHONE_NUMBER=your_twilio_phone_number
    PORT=3000
    MONGO_URI=mongodb://localhost:27017/medication
+   
 4. **Start the Server
    ```bash
    node index.js
+   
 5. **Testing with Postman
+ ```bash
 
-Open Postman and create a new POST request.
-
-Enter the following URL: http://localhost:3000/trigger-call.
-
-In the Body tab, select raw and JSON format, then enter the following JSON payload:
+   Open Postman and create a new POST request.
+   
+   Enter the following URL: http://localhost:3000/trigger-call.
+   
+   In the Body tab, select raw and JSON format, then enter the following JSON payload:
 
 
 
