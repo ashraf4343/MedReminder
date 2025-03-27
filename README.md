@@ -47,10 +47,13 @@ This project implements a medication reminder service that triggers phone calls 
  ```bash
 
    Open Postman and create a new POST request.
-   
    Enter the following URL: http://localhost:3000/trigger-call.
-   
    In the Body tab, select raw and JSON format, then enter the following JSON payload:
+   {
+  "phoneNumber": "Twilio varified phonenumber"
+   }
+   Send the request. You should receive a response indicating the status of the call.
+
 
 
 
