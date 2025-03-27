@@ -26,3 +26,7 @@ This project implements a medication reminder service that triggers phone calls 
    ```bash
    git clone <repository-url>
    cd medication-reminder-service
+2. **Install Dependencies
+   ```bash
+   npm install
+
