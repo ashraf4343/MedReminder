@@ -54,6 +54,7 @@ This project implements a medication reminder service that triggers phone calls 
    }
    Send the request. You should receive a response indicating the status of the call.
 
+![image](https://github.com/user-attachments/assets/51c4fe50-4652-41c0-87e9-c0751a885056)
 
 
 
