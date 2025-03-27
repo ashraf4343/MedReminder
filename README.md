@@ -44,14 +44,14 @@ This project implements a medication reminder service that triggers phone calls 
    node index.js
    
 5. **Testing with Postman
- ```bash
-   Open Postman and create a new POST request.
-   Enter the following URL: http://localhost:3000/trigger-call.
-   In the Body tab, select raw and JSON format, then enter the following JSON payload:
+   1. Open Postman and create a new **POST** request.  
+   2. Enter the following URL: `http://localhost:3000/trigger-call`.  
+   3. In the **Body** tab, select **raw** and **JSON** format, then enter the following payload:  
+
+   ```bash
    {
-     "phoneNumber": "Twilio varified phonenumber"
+     "phoneNumber": "Twilio verified phone number"
    }
-   Send the request. You should receive a response indicating the status of the call.
 
 
 6. **Testing with Postman
